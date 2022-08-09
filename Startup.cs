@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using RecipeBox.Models;
-using Microsoft.AspNetCore.Identity;
 
 namespace RecipeBox
 {
@@ -14,8 +13,8 @@ namespace RecipeBox
     public Startup(IWebHostEnvironment env)
     {
       var builder = new ConfigurationBuilder()
-        .SetBasePath(env.ContentRootPath)
-        .AddJsonFile("appsettings.json");
+          .SetBasePath(env.ContentRootPath)
+          .AddJsonFile("appsettings.json");
       Configuration = builder.Build();
     }
 
@@ -28,31 +27,12 @@ namespace RecipeBox
       services.AddEntityFrameworkMySql()
         .AddDbContext<RecipeBoxContext>(options => options
         .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
-        
-      services.AddIdentity<ApplicationUser, IdentityRole>()
-        .AddEntityFrameworkStores<RecipeBoxContext>()
-        .AddDefaultTokenProviders();
-
-      services.Configure<IdentityOptions>(options =>
-      {
-        options.Password.RequireDigit = false;
-        options.Password.RequiredLength = 0;
-        options.Password.RequireLowercase = false;
-        options.Password.RequireNonAlphanumeric = false;
-        options.Password.RequireUppercase = false;
-        options.Password.RequiredUniqueChars = 0;
-      });
     }
 
     public void Configure(IApplicationBuilder app)
     {
       app.UseDeveloperExceptionPage();
-
-      app.UseAuthentication(); 
-
       app.UseRouting();
-
-      app.UseAuthorization();
 
       app.UseEndpoints(routes =>
       {
