@@ -3,11 +3,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace RecipeBox.Models
 {
-  public class RecipeBoxContext : DbContext
+  public class RecipeBoxContext : IdentityDbContext<ApplicationUser>
   {
     public DbSet<Ingredient> Ingredients { get; set; }
-    // public DbSet<Instruction> Instructions { get; set; }
     public DbSet<Recipe> Recipes { get; set; }
+    public DbSet<Category> Categories { get; set; }
+    public DbSet<RecipeIngredient> RecipeIngredient { get; set; }
+    public DbSet<CategoryRecipe> CategoryRecipe { get; set; }
 
     public RecipeBoxContext(DbContextOptions options) : base(options) { }
 

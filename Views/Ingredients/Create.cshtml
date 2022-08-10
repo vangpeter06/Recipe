@@ -2,7 +2,7 @@
   Layout = "_Layout";
 }
 
-@model RecipeBox.Models.Ingredient
+@model RecipeBox.Models.Ingredient;
 
 <h4>Add a new Ingredient</h4>
 
@@ -11,10 +11,7 @@
   @Html.LabelFor(model => model.Name)
   @Html.TextBoxFor(model => model.Name)
 
-  @Html.LabelFor(model => model.Recipe)
-  @Html.DropDownList("RecipeId")
-
-  <input type="submit" value="Add new recipe" class="btn btn-default" />
+  <input type="submit" value="Add new ingredient" class="btn btn-default" />
 }
-<p>@Html.ActionLink("Show all recipes", "Index")</p>
+<p>@Html.ActionLink("Show all ingredients", "Index")</p>
 <p>@Html.ActionLink("Back to Home", "Index", "Home")</p>

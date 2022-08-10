@@ -34,7 +34,6 @@
 /Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
 /Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Ingredients/Create.cshtml.g.cs
 /Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Ingredients/Delete.cshtml.g.cs
-/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Ingredients/DeleteAll.cshtml.g.cs
 /Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Ingredients/Details.cshtml.g.cs
 /Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Ingredients/Edit.cshtml.g.cs
 /Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Ingredients/Index.cshtml.g.cs
@@ -53,3 +52,15 @@
 /Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/RecipeBox.genruntimeconfig.cache
 /Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Shared/Footer.cshtml.g.cs
 /Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Ingredients/AddRecipe.cshtml.g.cs
+/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Recipes/AddIngredient.cshtml.g.cs
+/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Categories/AddRecipe.cshtml.g.cs
+/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Categories/Create.cshtml.g.cs
+/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Categories/Delete.cshtml.g.cs
+/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Categories/Details.cshtml.g.cs
+/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Categories/Edit.cshtml.g.cs
+/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Categories/Index.cshtml.g.cs
+/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Recipes/AddCategory.cshtml.g.cs
+/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Account/Index.cshtml.g.cs
+/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs
+/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs

@@ -9,7 +9,13 @@
 {
   @Html.LabelFor(model => model.Name)
   @Html.TextBoxFor(model => model.Name)
+
+  @Html.LabelFor(model => model.Instruction)
+  @Html.TextBoxFor(model => model.Instruction)
+
+  @Html.Label("Rating for this recipe (1-5, 5 being the highest)")
+  @Html.TextBoxFor(model => model.Rating)
   <input type="submit" value="Add new recipe" />
 }
-<p>@Html.ActionLink("Show all recipes", "Index")</p>
-<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
+<p>@Html.ActionLink("Show all winnie recipes", "Index")</p>
+<p>@Html.ActionLink("Back to winnie Home", "Index", "Home")</p>

@@ -2,12 +2,33 @@
   Layout = "_Layout";
 }
 
-@model RecipeBox.Models.Ingredient
+@model RecipeBox.Models.Ingredient;
 
 <h2>Ingredient Details</h2>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<h3>
+<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
+
+@if(@Model.JoinEntities.Count == 0)
+{
+  <p>This ingredient does not belong to any recipes</p>
+}
+else
+{
+  <h4>Recipes the ingredient belongs to:</h4>
+  <ul>
+  @foreach(var join in Model.JoinEntities)
+  {
+    <li>@join.Recipe.Name</li>
+    @using (Html.BeginForm("DeleteRecipe", "Ingredient"))
+    {
+      @Html.Hidden("joinId", @join.RecipeIngredientId)
+      <input type="submit" value="Delete"/>
+    }
+  }
+  </ul>
+}
+<p>@Html.ActionLink("Add a Recipe", "AddRecipe", new { id = Model.IngredientId })</p>
+
+<p>@Html.ActionLink("Back to ingredients", "Index")</p>
 <p>@Html.ActionLink("Edit Ingredient", "Edit", new { id = Model.IngredientId })</p>
 <p>@Html.ActionLink("Delete Ingredient", "Delete", new { id = Model.IngredientId })</p>
-<p>@Html.ActionLink("Back to list", "Index")</p>
-<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>

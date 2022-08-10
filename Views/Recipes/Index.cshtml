@@ -3,20 +3,20 @@
 }
 
 @using RecipeBox.Models;
+@model List<RecipeBox.Models.Recipe>;
 
-<h1>Recipes</h1>
+<h1>Recipe</h1>
 
 @if (@Model.Count == 0)
 {
   <h3>No recipes have been added yet!</h3>
 } 
 
-<ul>
-  @foreach(Recipe recipe in Model)
-  {
-    <li>@Html.ActionLink($"{recipe.Name}", "Details", new { id = recipe.RecipeId })</li>
-  }
-</ul>
+@foreach (Recipe recipe in Model)
+{
+  <li>@Html.ActionLink($"{recipe.Name}", "Details", new { id = recipe.RecipeId })</li>
+}
 
 <p>@Html.ActionLink("Add new recipe", "Create")</p>
 <p>@Html.ActionLink("Home", "Index", "Home")</p>
+<p>@Html.ActionLink("Go back home", "Index", "Home")</p>

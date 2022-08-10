@@ -15,6 +15,12 @@
   @Html.LabelFor(model => model.Name)
   @Html.EditorFor(model => model.Name)
 
+  @Html.LabelFor(model => model.Instruction)
+  @Html.TextBoxFor(model => model.Instruction)
+
+  @Html.Label("Rating for this recipe (1-5, 5 being the highest)")
+  @Html.TextBoxFor(model => model.Rating)
+
   <input type="submit" value="Save" />
 }
 <p>@Html.ActionLink("Back to list", "Index")</p>
