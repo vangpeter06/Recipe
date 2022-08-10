@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = RecipeBox
-build_property.ProjectDir = /Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/
+build_property.ProjectDir = /Users/petervang/Desktop/Recipe_Box.Solution/RecipeBox/

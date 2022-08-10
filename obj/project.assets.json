@@ -5984,11 +5984,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/RecipeBox.csproj",
+      "projectUniqueName": "/Users/petervang/Desktop/Recipe_Box.Solution/RecipeBox/RecipeBox.csproj",
       "projectName": "RecipeBox",
-      "projectPath": "/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/RecipeBox.csproj",
+      "projectPath": "/Users/petervang/Desktop/Recipe_Box.Solution/RecipeBox/RecipeBox.csproj",
       "packagesPath": "/Users/petervang/.nuget/packages/",
-      "outputPath": "/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/obj/",
+      "outputPath": "/Users/petervang/Desktop/Recipe_Box.Solution/RecipeBox/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/petervang/.nuget/NuGet/NuGet.Config"

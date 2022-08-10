@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ohc2ZfWuQVoW6BH37O3leObtLTFt4/59ogSlW5YFkzbBxqka7JWaYG4qPRaOdAoTL+P3rZ/+ygk2Nh7p645cdQ==",
+  "dgSpecHash": "kK09vQ1Qzf0F7pdhObHKOVturhgupQ2AAtPL+eW+2vjlcQEAkMkn5ubNfnFN0gZqxEGJ6aRHHpZWMdrQL66o9g==",
   "success": true,
-  "projectFilePath": "/Users/petervang/Desktop/RecipeBox.Solution/RecipeBox/RecipeBox.csproj",
+  "projectFilePath": "/Users/petervang/Desktop/Recipe_Box.Solution/RecipeBox/RecipeBox.csproj",
   "expectedPackageFiles": [
     "/Users/petervang/.nuget/packages/castle.core/4.4.1/castle.core.4.4.1.nupkg.sha512",
     "/Users/petervang/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
